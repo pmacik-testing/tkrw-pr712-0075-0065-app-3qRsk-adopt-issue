@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-pmbc
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0065-tenant/tkrw-pr712-0075-0065-app/devfile-sample-pmbc@sha256:81df4ae50c80483444dc8aed1f59f709b4e2d27ba9b622b324dbd550a35c4ac5
         name: my-nodejs
         ports:
         - containerPort: 3001
